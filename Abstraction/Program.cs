@@ -32,3 +32,12 @@ using Abstraction;
 //};
 //Console.WriteLine(func(6, 4));
 
+
+Rule rule = new Rule()
+{
+    Name = "Hamed",
+    Family = "Shams"
+};
+rule.Higth = 193;
+rule.EyeColor = Color.Brown;
+Console.WriteLine(rule.PrintInfo());
